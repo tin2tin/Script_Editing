@@ -2,7 +2,7 @@
 A script editing workspace for the Blender Text Editor
 
 # Install
-- Download Code - Download Zip
+- Download: Code - Download Zip
 - Unzip
 - Rename the folder inside the zip to Script_Editing - remove '-main'
 - Copy the folder into: C:\Program Files\Blender Foundation\Blender 2.90\2.90\scripts\startup\bl_app_templates_system
