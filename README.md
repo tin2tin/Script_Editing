@@ -22,3 +22,9 @@ The UI should now look different and the add-ons should be installed and enabled
 - Text Marker https://github.com/samytichadou/TextMarker_blender_addon
 - Text Formatting https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim-Whitespace-Change-Case-and-Split-Join-Lines.py
 - Textension https://github.com/K-410/textension
+
+# How to expand:
+- Have an __init__.py file in the folder of the add-on.
+- Copy the name in the init file.
+- Zip the folder.
+- In Script_Editing/__init__.py paste the name of the add-on if it should be enabled.
