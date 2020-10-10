@@ -45,7 +45,7 @@ def load_handler(dummy):
         print("Installing: "+path_to_file)
         bpy.ops.preferences.addon_install(overwrite=True, target='DEFAULT', filepath=path_to_file, filter_folder=True, filter_python=False, filter_glob="*.py;*.zip")
 
-    enableTheseAddons = ['textension', 'TextMarker', 'code_editor', 'text_formatting']
+    enableTheseAddons = ['textension', 'TextMarker', 'code_editor', 'text_formatting', 'SearchOnlineReference', 'ConsoleEasyTextEdit', 'AddonInstallerScriptRunner', 'intellisense', 'SnippetsLibrary']
 
     for string in enableTheseAddons:
         name = enableTheseAddons
