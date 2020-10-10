@@ -40,7 +40,7 @@ def load_handler(dummy):
             script_list.append(item)
             print("Append: "+item)
 
-    for file in file_list:
+    for file in script_list:
         path_to_file = os.path.join(path_to_script_dir, file)
         print("Installing: "+path_to_file)
         bpy.ops.preferences.addon_install(overwrite=True, target='DEFAULT', filepath=path_to_file, filter_folder=True, filter_python=False, filter_glob="*.py;*.zip")
