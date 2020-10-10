@@ -20,12 +20,14 @@ import bpy
 from bpy.app.handlers import persistent
 import os
 
+
 @persistent
 def load_handler(dummy):
     from bpy import context
+
     screen = context.screen
     for area in screen.areas:
-        if area.type == 'FILE_BROWSER':
+        if area.type == "FILE_BROWSER":
             space = area.spaces.active
             params = space.params
             params.use_filter_folder = True
@@ -34,22 +36,40 @@ def load_handler(dummy):
     path_to_script_dir = os.path.dirname(os.path.abspath(__file__))
     file_list = sorted(os.listdir(path_to_script_dir))
 
-    script_list =[]
+    script_list = []
     for item in file_list:
-        if item.endswith('.zip'):
+        if item.endswith(".zip"):
             script_list.append(item)
-            print("Append: "+item)
-
+            print("Append: " + item)
     for file in script_list:
         path_to_file = os.path.join(path_to_script_dir, file)
-        print("Installing: "+path_to_file)
-        bpy.ops.preferences.addon_install(overwrite=True, target='DEFAULT', filepath=path_to_file, filter_folder=True, filter_python=False, filter_glob="*.py;*.zip")
-
-    enableTheseAddons = ['textension', 'TextMarker', 'code_editor', 'text_formatting', 'SearchOnlineReference', 'ConsoleEasyTextEdit', 'AddonInstallerScriptRunner', 'intellisense', 'SnippetsLibrary']
+        print("Installing: " + path_to_file)
+        bpy.ops.preferences.addon_install(
+            overwrite=True,
+            target="DEFAULT",
+            filepath=path_to_file,
+            filter_folder=True,
+            filter_python=False,
+            filter_glob="*.py;*.zip",
+        )
+    enableTheseAddons = [
+        "textension",
+        "TextMarker",
+        "code_editor",
+        "text_formatting",
+        "SearchOnlineReference",
+        "ConsoleEasyTextEdit",
+        "AddonInstallerScriptRunner",
+        "intellisense",
+        "SnippetsLibrary",
+        "development_edit_operator",
+        "development_icon_get",
+        "development_iskeyfree",
+    ]
 
     for string in enableTheseAddons:
         name = enableTheseAddons
-        bpy.ops.preferences.addon_enable(module = string)
+        bpy.ops.preferences.addon_enable(module=string)
 
 
 def register():
