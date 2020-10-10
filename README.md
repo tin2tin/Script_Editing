@@ -11,3 +11,14 @@ A script editing workspace for the Blender Text Editor
 - In the File menu - Defaults - Load Factory Settings(this is the only way to execute the init file in the workspace template).
 
 The UI should now look different and the Textention add-on should be installed and enabled.
+
+# Included add-ons:
+- textension
+- TextMarker
+- code_editor
+- text_formatting
+- SearchOnlineReference
+- ConsoleEasyTextEdit
+- AddonInstallerScriptRunner
+- intellisense
+- SnippetsLibrary
