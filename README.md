@@ -2,10 +2,10 @@
 A script editing workspace for the Blender Text Editor
 
 # Tutorial:
-https://www.youtube.com/watch?v=dc2KgXyM0ko
+[![](http://img.youtube.com/vi/dc2KgXyM0ko/0.jpg)](http://www.youtube.com/watch?v=dc2KgXyM0ko "")
 
 # Install:
-https://www.youtube.com/watch?v=ufSyony6eRE
+[![](http://img.youtube.com/vi/ufSyony6eRE/0.jpg)](http://www.youtube.com/watch?v=ufSyony6eRE "")
 - Download: Code - Download Zip
 - Unzip
 - Rename the folder inside the zip to Script_Editing - remove '-main'
