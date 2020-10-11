@@ -5,6 +5,7 @@ A script editing workspace for the Blender Text Editor
 https://www.youtube.com/watch?v=dc2KgXyM0ko
 
 # Install:
+https://www.youtube.com/watch?v=ufSyony6eRE
 - Download: Code - Download Zip
 - Unzip
 - Rename the folder inside the zip to Script_Editing - remove '-main'
