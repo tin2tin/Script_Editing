@@ -63,9 +63,9 @@ def load_handler(dummy):
         "intellisense",
         "SnippetsLibrary",
         "development_edit_operator",
+        "AddonReloader",
         "development_icon_get",
         "development_iskeyfree",
-        "AddonReloader",
     ]
 
     for string in enableTheseAddons:
