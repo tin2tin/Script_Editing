@@ -65,6 +65,7 @@ def load_handler(dummy):
         "development_edit_operator",
         "development_icon_get",
         "development_iskeyfree",
+        "AddonReloader",
     ]
 
     for string in enableTheseAddons:
