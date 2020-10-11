@@ -27,6 +27,11 @@ The UI should now look different and the add-ons should be installed and enabled
 - Text Formatting https://github.com/tin2tin/Trim-Whitespace-Change-Case-and-Split-Join-Lines/blob/master/Trim-Whitespace-Change-Case-and-Split-Join-Lines.py
 - Textension https://github.com/K-410/textension
 
+# Enabled Blender native add-ons:
+- Edit Operator
+- Icon Get
+- Is Key Free
+
 # How to expand:
 - Have an __init__.py file in the folder of the add-on.
 - Copy the name in the init file.
