@@ -17,6 +17,7 @@ The UI should now look different and the add-ons should be installed and enabled
 
 # Included add-ons:
 - Addon Installer Script Runner https://github.com/1C0D/Addon_Installer-Script_Runner-BlenderAddon
+- Addon Reloader: https://github.com/karmaral/addon-reloader
 - Code Editor https://github.com/K-410/blender-scripts/blob/master/2.8/code_editor.py
 - Console Easy Text Edit https://github.com/1C0D/console_easy_text_edit-Blender
 - Intellisense https://github.com/tin2tin/Intellisense_for_Blender_Text_Editor
