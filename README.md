@@ -32,3 +32,6 @@ The UI should now look different and the add-ons should be installed and enabled
 - Copy the name in the init file.
 - Zip the folder.
 - In Script_Editing/__init__.py paste the name of the add-on if it should be enabled.
+
+# VScode color theme:
+https://gist.github.com/tin2tin/18f86237a54dd307296cfa7692b81a26
