@@ -28,9 +28,9 @@ The UI should now look different and the add-ons should be installed and enabled
 - Textension https://github.com/K-410/textension
 
 # Enabled Blender native add-ons:
-- Edit Operator
-- Icon Get
-- Is Key Free
+- Edit Operator https://docs.blender.org/manual/en/dev/addons/development/edit_operator.html
+- Icon Get https://docs.blender.org/manual/en/dev/addons/development/icon_viewer.html
+- Is Key Free https://docs.blender.org/manual/en/dev/addons/development/is_key_free.html
 
 # How to expand:
 - Have an __init__.py file in the folder of the add-on.
