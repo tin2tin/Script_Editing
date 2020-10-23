@@ -64,6 +64,8 @@ def load_handler(dummy):
         "SnippetsLibrary",
         "development_edit_operator",
         "AddonReloader",
+        "ViewSystemConsoleOutput",
+        "Python_Module_Manager",
         "development_icon_get",
         "development_iskeyfree",
     ]
